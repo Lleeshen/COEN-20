@@ -1,3 +1,10 @@
 # COEN 20 Labs
 
-Lab Projects from an Assembly Class
+Embedded Systems/Assembly Labs
+Class taken Spring 2018
+
+Lab 1: Convert signed and unsigned numbers between Decimal and Binary, using Two's Complement (in C)
+
+Lab 2: Return numbers and other things from functions with parameters in Assembly
+
+Lab 3: Copy 512 bits using different types of LDR instructions
