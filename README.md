@@ -8,3 +8,6 @@ Lab 1: Convert signed and unsigned numbers between Decimal and Binary, using Two
 Lab 2: Return numbers and other things from functions with parameters in Assembly
 
 Lab 3: Copy 512 bits using different types of LDR instructions
+
+Lab 4: Find Pixel Addresses and BitMap Addresses given pixel location;
+      This is used in the driver main program to generate fractals.
