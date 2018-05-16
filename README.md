@@ -15,3 +15,4 @@ Lab 4: Find Pixel Addresses and BitMap Addresses given pixel location.
 Lab 5: Insert and delete values from an array while preserving order.
 
 Lab 6: Insert and get nibble(4-bit) values from array that represent nibble values
+       This is used in the driver program to solve soduku puzzles autonomously.
