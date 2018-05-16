@@ -13,3 +13,5 @@ Lab 4: Find Pixel Addresses and BitMap Addresses given pixel location.
       This is used in the driver main program to generate fractals.
 
 Lab 5: Insert and delete values from an array while preserving order.
+
+Lab 6: Insert and get nibble(4-bit) values from array that represent nibble values
