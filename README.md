@@ -16,3 +16,6 @@ Lab 5: Insert and delete values from an array while preserving order.
 
 Lab 6: Insert and get nibble(4-bit) values from array that represent nibble values
        This is used in the driver program to solve soduku puzzles autonomously.
+
+Lab 7: Compare performance of dividing by a constant using DIV and optimization with multiply
+      Optimized division by constant code generated lab7-IntegerDivisionByConstant.c
