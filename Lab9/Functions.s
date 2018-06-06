@@ -53,7 +53,7 @@ addDone:
             .align
 SIMD_USatSub:
             PUSH {R4-R11}
-            //Copy the amount to other parts of the byte so can add multiple bytes at same time
+            //Copy the amount to other parts of the byte so can subtract multiple bytes at same time
             BFI R2,R2,8,8
             BFI R2,R2,16,16
             //Main loop subtracts the amount 40 bytes at the time until there is less than 40 bytes left
@@ -78,7 +78,7 @@ subMainLoop:
             //Subtracts the amount 4 bytes at a time until all pixels have amount added
 subCleanLoop:
             CBZ R1, subDone
-            //Load from byte array, add amount, and put back to the array
+            //Load from byte array, subtract amount, and put back to the array
             LDR R3,[R0]
             UQSUB8 R3,R3,R2
             STR R3,[R0],4
