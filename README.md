@@ -22,3 +22,6 @@ Lab 7: Compare performance of dividing by a constant using DIV and optimization 
 
 Lab 8: Compare performance of evaluating a polynomial with floating registers and fixed point reals;  
       Driver function uses this to show sine wave graph.
+
+Lab 9: Use SIMD and Saturating Functions to modify picture;
+      Driver function provides picture and ability to modify RGB
